@@ -8,6 +8,10 @@ public class SimpleBankAccount implements BankAccount {
      * - int transactions: numero delle operazioni effettuate
      * - static double ATM_TRANSACTION_FEE = 1: costo delle operazioni via ATM
      */
+    private double balance;
+    private int transactions;
+    static public double ATM_TRANSACTION_FEE=1;
+
     private final int id;
 
     /*
@@ -16,6 +20,7 @@ public class SimpleBankAccount implements BankAccount {
      */
     public SimpleBankAccount(final int id, final double balance) {
         this.id = id;
+        this.balance = balance;
     }
 
     /*
@@ -42,6 +47,7 @@ public class SimpleBankAccount implements BankAccount {
          * conto Nota: il deposito va a buon fine solo se l'id utente
          * corrisponde
          */
+        
     }
 
     public void withdraw(final int id, final double amount) {
