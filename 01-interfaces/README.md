@@ -15,6 +15,7 @@
 
 * Effettuare il test di `StrictBankAccount` seguendo le indicazioni fornite ed i commenti in `TestBankAccount`
 
+PASSAGGI
 - Fai la fork e copia il link
 - apri terminale, entra su Esercizi Java e fai git clone (link)
 - entro nella cartella dell'esercizio e fai git status

@@ -6,11 +6,12 @@ public class TestSimpleBankAccount {
         /*
          * Prevents object creation from the outside.
          */
+
     }
 
     public static void main(final String[] args) {
         // 1) Creare l' AccountHolder relativo a Andrea Rossi con id 1
-
+    
         // 2) Creare l' AccountHolder relativo a Alex Bianchi con id 2
 
         // 3) Creare i due SimpleBankAccount corrispondenti
