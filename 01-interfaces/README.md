@@ -14,3 +14,11 @@
     - Le spese di gestione dovranno essere calcolate come segue: al costo fisso di 5 Euro andrà aggiunto un costo variabile di 0.1 euro per ciascuna transazione effettuata
 
 * Effettuare il test di `StrictBankAccount` seguendo le indicazioni fornite ed i commenti in `TestBankAccount`
+
+- Fai la fork e copia il link
+- apri terminale, entra su Esercizi Java e fai git clone (link)
+- entro nella cartella dell'esercizio e fai git status
+- git add . per farli diventare verdi tutti insieme
+- git log se voglio vedere le modifiche (albero)
+- fai il commit -> git commit -m "(campo a piacere)"
+- git push 
